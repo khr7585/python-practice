@@ -1,0 +1,55 @@
+# LIST[]
+# a=[]
+# print(type(a))
+
+# ->mutable data type=we can replace ,delete,add etc...
+
+# ->store different type of elements =like int float etc...
+# a=[1,2,4.555,"hemanth",'k']
+# print(a[-4])
+
+# ->allow duplicates=multiple same values allowed...
+# a=[1,1,1,1,1,1,]
+# print(a[4])
+
+# ->allow indexing
+
+# SLISING
+# START:STOP:SKIP
+# a=[1,2,3,4,5,6,7,8,9]
+# print(a[2:8:2])
+
+
+# METHODS
+# 1.append-adding at last
+# a=[1,2,3,4,5]
+# a.append("6")
+# print(a)
+
+# 2.extend-to add bulk data 
+# a=[1,2,3]
+# a.extend(["hello","5","9.55"])
+# print(a)
+
+# 3.remove
+# a=['k','h','r']
+# a.remove('h')
+# print(a)
+
+# 4.pop-it takes index to remove
+# a=["hemanth",1,4,5]
+# a.pop(2)
+# print(a)
+
+# 5.count
+# a=[1,2,3,1,2,1,3,4,1]
+# print(a.count(1))
+
+# 6.index
+# a=[1,2,3,4,5]
+# print(a.index(3))
+
+#7.insert-add at particular place
+# a=[1,2,3,4,5]
+# a.insert(0,'k')
+# print(a)

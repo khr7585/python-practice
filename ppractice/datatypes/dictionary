@@ -1,0 +1,44 @@
+# DICTIONARY{}
+# a={}
+# print(type(a))
+
+# a={1:"khr",2:"hemanth"}-1 is a key ,,khr is a value ,both is a item
+
+# ->key,value dat(k:v)
+# ->key should be immutable-the key doesn't change
+# ->value should be mutable(different types)-we can change ite
+# ->key will act as index
+# ->no slicing 
+# ->keys are unique
+
+# k={1:"hello",2:"hi"}
+# print(k[1])
+
+# METHODS
+# 1.get()
+# a={1:'k',2:'h',3:'r'}
+# print(a.get(2))
+
+# 2.update()
+# a={1:'k',2:'h',3:'r'}
+# a.update({1:2})
+# print(a)
+
+# 3.values()
+# a={1:'k',2:'h',3:'r'}
+# print(a.values())
+
+# 4.keys()
+# a={1:'k',2:'h',3:'r'}
+# print(a.keys())
+
+# 5.items()
+# a={1:'k',2:'h',3:'r'}
+# print(a.items())
+
+# for loop by using items,values,keys
+# a={1:'k',2:'h',3:'r'}
+# # for i in {1:'k',2:'h',3:'r'}:
+#     print(i)
+# for i in {1:'k',2:'h',3:'r'}.items():
+#     print(i)

@@ -1,0 +1,20 @@
+# 3.jumping statements
+#     1.pass-ignore
+#     2.continue-skip(current iteration)
+#     3.break-terminate
+
+# when u dont have any idea to write the use pass
+# if True:
+#     pass
+
+# a='hemanth'
+# for i in a:
+#     if i=='a':
+#        break
+#     print(i)
+
+# a='goodboy'
+# for i in a:
+#     if i=='d':
+#         continue
+#     print(i)

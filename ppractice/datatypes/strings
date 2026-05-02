@@ -1,0 +1,76 @@
+# 1.string-group/collection of characters
+#     1.single quotes('')
+#     2.double quotes("")-it supports single between double
+#     3.triple quotes(''''''')-it supports multiple lines
+
+# a='hemanth'
+# b="hemanth"
+# c='''hello'''
+# print(type(a),type(b),type(c))
+
+
+# STRING METHODS
+
+# 1.Lower()-lower case
+# a="HEMANTH"
+# print(a.lower())
+
+# 2.Upper()-upper case
+# a="hemanth"
+# print(a.upper())
+
+# 3.endswith()-
+# k="khr"
+# print(k.endswith("r"))
+# print(k.endswith("k"))
+
+# 4.startswith()-
+# h="khr"
+# print(h.startswith("k"))
+# print(h.startswith("h"))
+
+# 5.replace()
+# a="hemanth"
+# print(a.replace("hemanth","khr"))
+
+# 6.split()-string to list by using split
+# a="hemanth"
+# print(a.split())
+
+# 7.count()-counting numbers or letters
+# a="hemanth"
+# print(a.count("h"))
+
+# 8.Rstrip()-right empty trim
+# a="  khr  "
+# print(a.rstrip())
+
+# 9.Lstrip()-left empty trim
+# a="  hem anth  "
+# print(a.lstrip())
+
+# 10.strip()-trim
+# a="  hemanth  "
+# print(len(a))
+# print(a.strip())
+# b=a.strip()
+# print(len(b))
+
+# 11.removesuffix()-
+# a="khr"
+# print(a.removeprefix("k"))
+
+# 12.removesuffix()-
+# a="hemanth"
+# print(a.removesuffix("h"))
+
+# 13.index()-error
+# a="hemanth"
+# print(a.index("m"))
+# print(a.index("l")) //error
+
+# 14.find()
+# a="khr"
+# print(a.find("r"))
+# print(a.find("m")) //-1
+

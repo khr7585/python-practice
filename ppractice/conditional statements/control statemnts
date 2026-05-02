@@ -1,0 +1,32 @@
+# 1.conditional statements/decision making statements
+#     1.if
+#     2.else
+#     3.elif
+#     4.nested if
+
+# age=10
+# if age>19:
+#    print("hello")
+# elif age==11:
+#     print("hai")
+# else:
+#     print("hello hai")
+
+# a=10
+# if a>0:
+#     print("hello")
+#     if a==10:
+#         print("hai")
+#     else:
+#         print("hello bye")
+# else:
+#     print("hai bye")
+
+# if True:
+#     print("false")
+# else:
+#     print("True")
+
+
+
+
