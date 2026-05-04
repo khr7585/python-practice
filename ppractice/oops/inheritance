@@ -1,0 +1,41 @@
+# types of inheritance
+# SINGLE INHERITANCE(one child inherits from one parent)
+# class parent:
+#     def show(self):
+#         print("hello world")
+# class child(parent):
+#     def display(self):
+#         print("the rajasaab world")
+# c=child()
+# c.show()
+# c.display()
+
+
+# MULTIPLE INHERITANCE(child inherits from multiple parents)
+# class parent1:
+#     def skills(self):
+#         print("hello")
+# class parent2:
+#     def talent(self):
+#         print("world")
+# class child(parent1,parent2):
+#     pass
+# c=child()
+# c.skills()
+# c.talent()
+
+
+# MULTILEVEL INHERITANCE(INHERITANCE IN LEVELS(grandparent->parent->child))
+# class grandparent:
+#     def house(self):
+#         print("i am grandparent")
+# class parent(grandparent):
+#     def car(self):
+#         print("i am parent")
+# class child(parent):
+#     def bike(self):
+#         print("i am the child")
+# c=child()
+# c.house()
+# c.car()
+# c.bike()

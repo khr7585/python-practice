@@ -3,14 +3,10 @@
 #     def __init__(self,name,age):
 #         self.name=name
 #         self.age=age
-
 #     def hello(self):
-#         print(f"name:{self.name} & age:{self.age}")
-
-    
+#         print(f"name:{self.name} & age:{self.age}")   
 # P=Person("hemanth",20)
 # Q=Person("jake",22)
-
 # P.hello()
 # Q.hello()
 
@@ -30,10 +26,8 @@
 # class num:
 #     def __init__(self,num):
 #         self.num=num
-
 #     def square(self):
 #         return self.num*self.num
-
 # num1=num(4)
 # num2=num(7)
 # print(f"area of square 4 is {num1.square()}")

@@ -1,0 +1,22 @@
+# 1.public(default)
+# class test:
+#     def __init__(self):
+#         self.name="hemanth"
+# h=test()
+# print(h.name)
+
+
+# 2.protected(_var)
+# class test:
+#     def __init__(self):
+#         self._age=21
+# h=test()
+# print(h._age)
+
+
+#3.private(__var)
+# class test:
+#     def __init__(self):
+#         self.__salary=50000
+# h=test()
+# print(h._test__salary)

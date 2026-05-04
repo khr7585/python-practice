@@ -1,0 +1,47 @@
+# 1.instance method(works with object data)
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#     def show(self):
+#         print(self.name)
+# s=student("hemanth")
+# s.show()
+
+
+# class method(wroks with class-level data)
+# class student:
+#     school="sss school"
+#     @classmethod
+#     def school_name(cls):
+#         print(cls.school)
+# student.school_name
+
+
+# static method(no relation to class or object)
+# class math:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+# print(math.add(2,3))
+
+
+#special(magic/dunder)methods
+#1.__str__
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return self.name
+# s=student("hemanth")
+# print(s)
+
+
+#2.__len__
+# class mylist:
+#     def __init__(self,items):
+#         self.items=items
+#     def __len__(self):
+#         return len(self.items)
+# m=mylist([1,2,3])
+# print(len(m))
+

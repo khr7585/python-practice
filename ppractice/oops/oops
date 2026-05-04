@@ -1,0 +1,55 @@
+# encapsulation
+# class bank:
+#     def __init__(self,balance):
+#         self.__balance=balance
+#     def deposit(self,amount):
+#         self.__balance+=amount
+#     def get_balance(self):
+#         return self.__balance
+# acc=bank(1000)
+# acc.deposit(500)
+# print(acc.get_balance())
+
+
+# INHERITANCE(a child gets properties from a parent class)
+# class person:
+#     def __init__(self,name):
+#         self.name=name
+#     def show(self):
+#         print("name:",self.name)
+# class student (person):
+#     def study(self):
+#         print(self.name,"is good boy")
+# s=student("hemanth")
+# s.show()
+# s.study()
+
+
+#POLYMORPHISM(same method ,different behaviour)
+# class dog:
+#     def sound(self):
+#         print("dog barks")
+# class cat:
+#     def sound(self):
+#         print("cat meows")
+# animals=[dog(),cat()]
+# for a in animals:
+#     a.sound()
+
+
+# ABSTRACTION(hiding implementation)
+# from abc import ABC,abstractmethod
+# class vehicle(ABC):
+#     @abstractmethod
+#     def start(self):
+#         pass
+# class bike(vehicle):
+#     def start(self):
+#         print("bike starts with kick")
+# class car(vehicle):
+#     def start(self):
+#         print("car starts with key")
+# b=bike()
+# c=car()
+# b.start()
+# c.start()
