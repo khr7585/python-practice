@@ -1,0 +1,68 @@
+#1.BUILT IN FUNCTIONS(python already provides these functions)
+# print("hemanth")
+# print(len([1,2,3]))
+# print(type(10))
+# print(int("00"))
+# print(str(3.14))
+# print(sum([1,2,3]))
+# print(max([1,2,3]))
+# print(min([1,2,3]))
+# print(abs(-5))
+# print(round(3.6))
+# print(sorted([8.3,5,1,6]))
+# print(range(5))
+
+
+#2USER-DEFINED FUNCTIONS(functions created by programmers)
+# def greet():
+#     print("hemanth")
+# greet()
+ 
+# multiple operations with one function
+# def square(n):
+#     return n*n
+# def bmi(weight,height):
+#     bmi_value=weight/height
+#     if bmi_value<18.5:
+#         return "underweight"
+#     elif bmi_value <25:
+#         return "normal"
+#     else: 
+#         return "overweight"
+# print(square(6))
+# print(bmi(60,1.75))
+
+
+#3.LAMBA FUNCTIONS
+# double=lambda x:x*2
+# print(double(5))
+
+# lamba with two parameters
+# add =lambda a,b:a+b
+# print(add(2,5))
+
+#most common use:inside/map/filter
+# students=[("hemanth", 9.1),("jake",4.5),("gun",6.7)]
+# students.sort(key=lambda s:s[1])
+# print(students)
+
+#print even numbers
+# nums=[1,2,3,4,5,6]
+# evens=list(filter(lambda x:x%2==0,nums))
+# print(evens)
+
+
+#4.RECURSION FUNCTIONS(a function call itself)
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+# print(factorial(0))
+
+#fibonacci using recursion
+# def fib(n):
+#     if n<=1:
+#         return n
+#     return fib(n-1)+fib(n-2)
+# print(fib(7))

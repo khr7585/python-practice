@@ -1,0 +1,40 @@
+#1.RETURN STATEMENT(send a value back to the caller)
+#function with none
+# def square(n):
+#     return n*n
+# result=square(5)
+# print(result)
+
+#without return -> returns none
+# def say_hi():
+#     print("hi!")
+# val=say_hi()
+# print(val)
+
+#return exists the function immediately
+# def check_position(n):
+#     if n<0:
+#         return "negative"
+#     if n==0:
+#         return "zero"
+#     return "positive"
+# print(check_position(-3))
+# print(check_position(0))
+# print(check_position(7))
+
+
+#2.RETURN MULTIPLE VALUES(python lets you return more than one value)
+# def min_max(numbers):
+#     return min(numbers),max(numbers)
+# low,high=min_max([3,1,7,2,9,4])
+# print(low)
+# print(high)
+
+#return a dict for named values
+# def stats(numbers):
+#     return {
+#         "min":min(numbers),
+#         "max":max(numbers)
+#     }
+# result=stats([10,20])
+# print(result)

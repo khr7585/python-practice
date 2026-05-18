@@ -1,0 +1,46 @@
+# DEFINING A FUNCTION & CALLING A FUNCTION
+# def hello():
+#  print("hello man")
+# hello()
+
+
+# FUNCTION WITH PARAMETERS
+# def greet(name):
+#     print("hello",name)
+# greet("hemanth")
+
+
+# FUNCTION WITH RETURN VALUE
+# def add(a,b):
+#     return a+b
+# result=add(3,5)
+# print(result)
+
+
+# TYPES OF FUCNTIONS
+# 1. Built in functions
+# 2.user defined
+
+
+# TYPES BASED ON PARAMETERS AND RETURN Value
+#1.no paramters &no return
+# def show():
+#   print("hemanth")
+# show()
+
+#2.paramters but no return
+# def add(a,b):
+#     print(a+b)
+# add (5,3)
+
+#3.no parameters but return value
+# def number():
+#     return 30
+# x=number()
+# print(x)
+
+#4.parameters and return value
+# def add(a,b):
+#     return a+b
+# result=add(3,5)
+# print(result)
