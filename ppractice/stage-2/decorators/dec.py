@@ -1,14 +1,14 @@
 # 1.SIMPLE DECORATOR 
-# def decorator(func):
-#     def wrapper():
-#         print("before")
-#         func()
-#         print("after")
-#     return wrapper
-# @decorator
-# def greet():
-#     print("hello")
-# greet()
+def decorator(func):
+    def wrapper():
+        print("before")
+        func()
+        print("after")
+    return wrapper
+@decorator
+def greet():
+    print("hello")
+greet()
 
 #2.CUSTOM DECORATOR WITH ARGUMENTS
 # def smart(func):
