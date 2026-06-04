@@ -13,3 +13,24 @@
 #     print("cannot divisible by  zero")
 # except ValueError:
 #     print("invalid input")
+
+#1.try:
+#2.except:
+#3.else:
+# try:
+#     num=int(input())
+# except ValueError:
+#     print("invalid input")
+# else:
+#     print("valid input")
+
+#4.finally
+# try:
+#     print(10/2)
+# finally:
+#     print("execution completed")
+
+#5.raise
+# age=-5
+# if age<0:
+#     raise ValueError("age cannot be negative")
