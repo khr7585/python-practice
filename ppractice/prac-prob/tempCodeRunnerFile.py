@@ -1,2 +1,4 @@
-for value in gen:
-#     print(value)
+if code==200:
+#     print("success")
+# else:
+#     print("failed")
